@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    background: #fff;
+    width: 98vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3.5rem 2rem 3.5rem;
+}
+
+nav>.left>button{
+    border: 1px solid black;
+    height: 1.9rem;
+    background-color: #fff;
+    width: 3.8rem;
+    border-radius: 16px;
+}
+
+nav>.middle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav>.middle>button{
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 2rem;
+    width: 2.2rem;
+    background-color: orange;
+}
+
+nav>.right>button{
+    border: 1px solid black;
+    height: 1.9rem;
+    background-color: #fff;
+    width: 3.8rem;
+    border-radius: 16px;
+}
+
+.signup{
+    background-color: orange !important;
+}
+
+section{
+    width: 88vw;
+    margin: 0 10vh;
+    height: 67vh;
+}
+
+section .text{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+section .text h1{
+    font-size: 8rem;
+    margin-right: 1rem;
+}
+
+.images img{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    top: 20%;
+    right: 43%;
+    z-index: 2;
+}
+
+.img1{
+    transform: translateX(10px) rotate(-10deg) translateY(5px);
+}
+
+.img2{
+    transform: translateX(10px) rotate(-15deg) translateY(5px);
+}
+
+.img3{
+    transform: translateX(10px) rotate(-20deg) translateY(5px);
+}
+.img5{
+    transform: translateX(10px) rotate(-25deg) translateY(5px);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3.5rem 2rem 3.5rem;
+}
+footer .links {
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+footer .links .imgs img{
+    width: 30px;
+}
